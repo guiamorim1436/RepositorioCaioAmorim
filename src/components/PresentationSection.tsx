@@ -12,9 +12,9 @@ export const PresentationSection: React.FC = () => {
         
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-20">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] uppercase tracking-widest text-slate-400 font-mono mb-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] uppercase tracking-widest text-slate-300 font-mono mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-            Apresentação Conceitual // Demonstração Interativa
+            BMW M DIVISION // PURA PERFORMANCE
           </div>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold uppercase tracking-tight text-white max-w-3xl leading-tight">
             A Fusão Definitiva Entre Pista e Asfalto

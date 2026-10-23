@@ -34,8 +34,8 @@ export const VehicleOverview: React.FC = () => {
               <span className="px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/20 text-[10px] font-mono text-blue-400 uppercase tracking-wider">
                 Propulsão M
               </span>
-              <span className="text-[10px] font-mono text-slate-500 uppercase">
-                Demonstração Técnica
+              <span className="text-[10px] font-mono text-slate-400 uppercase">
+                S58 B30A // 6 CILINDROS
               </span>
             </div>
 

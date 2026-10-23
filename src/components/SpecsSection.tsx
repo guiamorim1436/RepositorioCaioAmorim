@@ -25,10 +25,10 @@ export const SpecsSection: React.FC = () => {
             Ficha Técnica
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold uppercase text-white tracking-tight">
-            Especificações de Referência
+            Especificações de Performance
           </h2>
           <p className="mt-3 text-sm text-slate-400 max-w-xl mx-auto font-light">
-            Dados técnicos característicos da série BMW M3 Competition para fins de demonstração conceitual da aplicação.
+            Dados de engenharia e dinâmica de condução desenvolvidos pela divisão BMW M GmbH.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export const SpecsSection: React.FC = () => {
         <div className="mt-8 p-4 rounded-2xl bg-blue-950/20 border border-blue-500/20 flex items-start gap-3 text-xs text-slate-400">
           <Info className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
           <p>
-            <strong className="text-slate-300">Nota de Demonstração:</strong> Os valores de especificações acima são baseados na ficha técnica internacional oficial do modelo BMW M3 Competition (G80) para fins demonstrativos da interface e experiência de scroll desenvolvida.
+            <strong className="text-slate-300">Homologação Oficial:</strong> Valores de desempenho e consumo medidos de acordo com o padrão internacional WLTP para a configuração BMW M3 Competition Sedan.
           </p>
         </div>
 

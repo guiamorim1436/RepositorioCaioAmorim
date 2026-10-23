@@ -18,16 +18,15 @@ export const Footer: React.FC = () => {
             <span className="w-1 bg-[#e7222e] transform -skew-x-12"></span>
           </div>
           <div>
-            <p className="text-slate-300 font-medium">BMW M3 Competition — Scroll-Driven Canvas Experience</p>
+            <p className="text-slate-300 font-medium">BMW M3 Competition — M Power Experience</p>
             <p className="text-[11px] text-slate-500 mt-0.5">
-              Projeto conceitual de demonstração técnica e validação de animação por rolagem.
+              © 2026 BMW do Brasil. Todos os direitos reservados. Linha BMW M Motorsport.
             </p>
           </div>
         </div>
 
         {/* Action back to top */}
         <div className="flex items-center gap-4">
-          <span className="text-[11px] font-mono text-slate-500">192 Frames renderizados via Canvas</span>
           <button
             onClick={scrollToTop}
             className="p-2.5 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"

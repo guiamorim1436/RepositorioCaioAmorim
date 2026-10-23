@@ -32,8 +32,8 @@ export const Navbar: React.FC = () => {
           <div className="flex items-baseline gap-1.5">
             <span className="font-display font-bold text-xl tracking-wider text-white">BMW</span>
             <span className="font-display font-light text-xl tracking-widest text-slate-400">M3</span>
-            <span className="text-[10px] font-semibold uppercase tracking-widest text-[#0099ff] border border-[#0099ff]/30 px-1.5 py-0.5 rounded ml-1">
-              DEMO
+            <span className="text-[10px] font-semibold uppercase tracking-widest text-red-500 border border-red-500/30 px-1.5 py-0.5 rounded ml-1">
+              COMPETITION
             </span>
           </div>
         </a>

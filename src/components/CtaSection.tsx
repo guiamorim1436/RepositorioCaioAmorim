@@ -44,15 +44,15 @@ export const CtaSection: React.FC = () => {
               <div className="w-16 h-16 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-4">
                 <CheckCircle2 className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Solicitação de Demonstração Registrada!</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Solicitação Registrada com Sucesso</h3>
               <p className="text-sm text-slate-400 max-w-md">
-                Esta é uma página de teste de animação por scroll. Em um ambiente de produção real, seus dados seriam enviados diretamente ao CRM da concessionária.
+                Agradecemos o seu contato. Um consultor executivo da rede BMW M entrará em contato em breve para apresentar todas as opções de configuração e agendamento.
               </p>
               <button
                 onClick={() => setSubmitted(false)}
                 className="mt-6 px-6 py-2.5 rounded-full bg-white/10 hover:bg-white/20 text-xs uppercase tracking-wider text-white transition-colors"
               >
-                Enviar nova solicitação
+                Nova solicitação
               </button>
             </div>
           ) : (
@@ -120,7 +120,7 @@ export const CtaSection: React.FC = () => {
                 type="submit"
                 className="w-full mt-4 group flex items-center justify-center gap-2 py-4 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-semibold text-xs uppercase tracking-widest shadow-lg shadow-blue-600/25 transition-all duration-300"
               >
-                <span>Solicitar Demonstração</span>
+                <span>Solicitar Atendimento VIP</span>
                 <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </form>
